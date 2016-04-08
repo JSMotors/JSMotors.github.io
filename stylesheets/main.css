@@ -1,0 +1,248 @@
+body{
+	background: url(../images/signAndLot.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width:auto;
+}
+#aboutBack{
+	background: url(../images/shop.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: auto;
+}
+#inventoryBack{
+	background: url(../images/lot.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: auto;
+}
+#contactBack{
+	background: url(../images/backSign.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: auto;
+}
+#direction{
+	background: #d9d9d9;
+}
+#main{
+	
+	margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	width: 575px;
+	position: fixed;
+	height: 575px;
+	top: 20px;
+	right: 10px;
+	padding: 10px 10px 0px 10px;
+}
+#main2{
+	margin: 30px;
+    background-color: #000000;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+	position: fixed;
+	height: 575px;
+	width: 575px;
+	top: 20px;
+	right: 375px;
+	padding: 10px 10px 0px 10px;
+}
+#footerBox{
+	margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	position: fixed;
+	height: 200px;
+	width: 575px;
+	bottom: -5px;
+	left: 10px;
+	padding: 10px 10px 0px 10px;
+}
+#footerBox2{
+	margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+	position: fixed;
+	height: 200px;
+	width: 575px;
+	bottom: -5px;
+	left: 400px;
+	padding: 10px 10px 0px 10px;
+}
+footer{
+	font-family: Montserrat, sans-serif;
+	position: fixed;
+	width: 600px;
+	height: 180px;
+	bottom: 40px;
+	left: 50px;
+}
+#footerBox2s{
+		font-family: Montserrat, sans-serif;
+	position: fixed;
+	width: 600px;
+	height: 180px;
+	bottom: 40px;
+	left: 450px;
+}
+#map{
+	position: fixed;
+	width: 350px;
+	height: 175px;
+	bottom: 25px;
+	left: 270px;
+	border: 1px solid black;
+}
+#map2{
+	position: fixed;
+	width: 350px;
+	height: 175px;
+	bottom: 25px;
+	left: 645px;
+	border: 1px solid black;
+}
+#inside{
+	font-family: Montserrat, sans-serif;
+	position: fixed;
+	width: 525px;
+	height: 525px;
+	right: 45px;
+	top: 50px;	
+}
+#inside2{
+	font-family: Montserrat, sans-serif;
+	color: white;
+	position: fixed;
+	width: 525px;
+	height: 525px;
+	top: 50px;
+	right: 450px;
+	text-align: center;
+}
+#inside2 p{
+	color: #d9d9d9;
+	font-size: 150%;
+}
+#inside a:hover{
+	color: #002080;
+}
+
+#previewTheLot img{
+	height: 250px;
+	width: 250px;
+	border: 1px solid black;
+	display: block;
+	margin: 0px 0px 30px 5px;
+}
+#cars img{
+	height: 250px;
+	width: 250px;
+	border: 1px solid black;
+	display: inline;
+}
+#cars p{
+	display: inline;
+}
+.carGroup{
+	font-family: font-family: Montserrat, sans-serif;
+	color: white;
+	font-size: 130%;
+	font-weight: bold;
+	display: block;
+	margin: 20px 0px 10px 0px;
+}
+#top{
+	margin: 100px 0px 0px 0px;
+}
+#description{
+	margin: -5px 160px 0px 0px;
+	text-align: center;
+}
+
+#previewTheLot {
+	margin: 20px 0px 35px 100px;
+}
+#leftArrow {
+	position: fixed;
+	top: 190px;
+	right: 520px;
+	padding: 20px 20px 20px 20px;
+	display: block;
+}
+
+#rightArrow{
+	position: fixed;
+	top: 190px;
+	right: 100px;
+	padding: 20px 20px 20px 20px;
+	display: block;
+}
+	
+#inside a{
+	text-decoration: none;
+	border-bottom: none;
+	text-align: center;
+	color: black;
+	font-size: 150%;
+	padding: 0px 0px 0px 100px;
+}
+
+nav ul {
+	font-family: Railway, sans-serif;
+	font-size: 125%;
+    list-style-type: none;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 610px;
+	margin: 3px 0px 2px 0px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	border-bottom: none;
+}
+
+nav li a:hover {
+	color: #002080;
+}
+#aboutBackNav a{
+	color: black;
+}
+#aboutBackNav a:hover{
+	color: white;
+}
+#box{
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.75;
+    filter: alpha(opacity=60);
+	position: fixed;
+	height: 50px;
+	width: 500px;
+	top: 0px;
+	right: 115px;
+}
