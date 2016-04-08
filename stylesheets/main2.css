@@ -1,0 +1,172 @@
+body{
+	background: url(../images/signAndLot.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width:auto;
+}
+#aboutBack{
+	background: url(../images/shop.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: auto;
+}
+#inventoryBack{
+	background: url(../images/lot.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: auto;
+}
+#contactBack{
+	background: url(../images/backSign.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: auto;
+}
+
+#all{
+	background: url(../images/save.png);
+	border: 1px solid black;
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	position: relative; 
+}
+#all2{
+	background: url(../images/save.png);
+	border: 1px solid black;
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	position: relative; 
+}
+#inside2{
+	background: url(../images/saveDark.png);
+	border: 1px solid black;
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	position: relative; 
+	font-family: Montserrat, sans-serif;
+	color: white;
+	text-align: center;
+}
+#description{
+	text-align: center;
+}
+#pictureGo{
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+}
+#again{
+	text-align:center;
+}
+#again a{
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+}
+#again a:hover{
+	color: #002080;
+	text-align: center;
+}
+#footerBox2{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	overflow: hidden;
+}
+#footer{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+#aboutFooter{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#map{
+        position: relative;
+        padding-bottom: 30%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+ }
+	
+#map iframe {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+}
+
+#inside{
+	font-family: Montserrat, sans-serif;
+	overflow: hidden;	
+}
+#inside2 p{
+	color: #d9d9d9;
+	font-size: 150%;
+}
+#vehicle{
+	height: 250px;
+	width: 250px;
+	border: 1px solid black;
+}
+#cars img{
+	border: 1px solid black;
+	display: inline;
+	width: 250px;
+	height: 250px;
+}
+#cars p{
+	display: inline;
+}
+.carGroup{
+	font-family: font-family: Montserrat, sans-serif;
+	color: white;
+	font-size: 130%;
+	font-weight: bold;
+	display: block;
+	margin: 20px 0px 10px 0px;
+}
+
+nav ul {
+	font-family: Railway, sans-serif;
+	font-size: 125%;
+    list-style-type: none;
+	max-width: 700px;
+	margin-top: 2%;
+	margin-left: 50%;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	border-bottom: none;
+}
+
+nav li a:hover {
+	color: #002080;
+}
+#aboutBackNav a{
+	color: black;
+}
+#aboutBackNav a:hover{
+	color: white;
+}
