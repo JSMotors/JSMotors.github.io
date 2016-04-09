@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Raleway|Montserrat' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<title>J/S Motors</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/main2.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME |</a></li>
+					<li><a href="about.html">ABOUT |</a></li>
+					<li><a href="ontheLot.html">INVENTORY |</a></li>
+					<li><a href="directionAndContact.html">DIRECTIONS/CONTACT |</a></li>
+					<li><a href="faq.html">FAQ |</a></li>
+					<li><a href="links.html">LINKS</a></li>
+				</ul>
+			</nav>			
+		</header>					
+			<div id="all">
+				<div id="inside">
+					<div id="pictureGo">
+						<img onClick="changeImageBack();" src="images/leftarrow32.png" alt="Navigation Arrow">
+						<img id="vehicle" src="images/tacoma.JPG" alt="Vehicles on the lot">
+						<img onClick="changeImage();" src="images/arrowright32.png" alt="Navigation Arrow">
+					</div>
+					<p id="description">'11 Toyota Tacoma<br>$23,900</p>
+					<p id="again">
+					<a href="onthelot.html">See what's on the lot!</a>
+					</p>
+					<h1>Hard Working.<br>Family-Owned Business.</h1>			
+					<h4>We can help you get the car or truck you need<br> to get you where you need to go.</h4>
+				</div>
+				<div id="footer">					
+					J/S Motors<br> 
+					Hours: 9am - 6pm<br> 
+					Mon-Sat<br>
+					13503 Lavender Street<br> 
+					Schulter, OK 74460<br>
+					(918)652-4767<br><br>		
+				</div>
+				<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.5868459111152!2d-95.95740708485303!3d35.51449298023358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b43bdba14834f1%3A0x9ed8fbd44293f67e!2s13503+Lavender+St%2C+Schulter%2C+OK+74460!5e0!3m2!1sen!2sus!4v1460145907643" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		<script type = "text/javascript"> 
+		
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"images/chevySUV.JPG",
+				"images/chevyBrushGuard.JPG",
+				"images/chevyTruck.JPG",
+				"images/chevyWorkTruck.JPG",
+				"images/churchVan.JPG",
+				"images/benz.JPG",
+				"images/tundra.JPG",
+				"images/van.JPG",
+				"images/fordTruck.JPG",
+				"images/stang.JPG",
+				"images/scion.JPG",
+				"images/tacoma.JPG"
+			)
+		//--><!]]>
+		
+		var i = 0;
+		function changeImage() {
+			var images = new Array();
+			
+			images[0] = new Image();
+			images[0].src = "images/chevySUV.JPG";
+			images[1] = new Image();
+			images[1].src = "images/chevyBrushGuard.JPG";
+			images[2] = new Image();
+			images[2].src = "images/chevyTruck.JPG";
+			images[3] = new Image();
+			images[3].src = "images/chevyWorkTruck.JPG";
+			images[4] = new Image();
+			images[4].src = "images/churchVan.JPG";
+			images[5] = new Image();
+			images[5].src = "images/benz.JPG";
+			images[6] = new Image();
+			images[6].src = "images/tundra.JPG";
+			images[7] = new Image();
+			images[7].src = "images/van.JPG";
+			images[8] = new Image();
+			images[8].src = "images/fordTruck.JPG";
+			images[9] = new Image();
+			images[9].src = "images/stang.JPG";
+			images[10] = new Image();
+			images[10].src = "images/scion.JPG";
+			images[11] = new Image();
+			images[11].src = "images/tacoma.JPG";
+			
+			var descriptions = ["'08 Chevrolet Tahoe LTZ</br>$16,900", "Chevrolet Silverado 4X4</br>$22,900", "'01 Chevrolet 1500 4X4</br>$4,995", 
+			"'02 Chevrolet 2500 HD</br>$3,995", "'95 Ford 15 Passenger Van</br>$3,500", "'02 Mercedes C320</br>$3,495",
+			"'00 Toyota Tundra</br>$3,995", "'04 Chevrolet Venture</br>$2,995", "'13 Ford F250</br>$10,900", "'02 Ford Mustang GT</br>$4,994",
+			"'04 Scion xB</br>$2,995", "'11 Toyota Tacoma</br>$23,900" ]
+			
+			if(i > 11){
+			document.getElementById('vehicle').src = "images/chevySUV.JPG";
+			document.getElementById('description').innerHTML = "'08 Chevrolet Tahoe LTZ</br>$16,900";
+			i = 1;
+			}		
+			else{
+			document.getElementById('vehicle').src = images[i].src;
+			document.getElementById('description').innerHTML = descriptions[i];
+			i = i + 1;
+			}	
+		}	
+		function changeImageBack(){
+					var images = new Array();
+			
+			images[0] = new Image();
+			images[0].src = "images/chevySUV.JPG";
+			images[1] = new Image();
+			images[1].src = "images/chevyBrushGuard.JPG";
+			images[2] = new Image();
+			images[2].src = "images/chevyTruck.JPG";
+			images[3] = new Image();
+			images[3].src = "images/chevyWorkTruck.JPG";
+			images[4] = new Image();
+			images[4].src = "images/churchVan.JPG";
+			images[5] = new Image();
+			images[5].src = "images/benz.JPG";
+			images[6] = new Image();
+			images[6].src = "images/tundra.JPG";
+			images[7] = new Image();
+			images[7].src = "images/van.JPG";
+			images[8] = new Image();
+			images[8].src = "images/fordTruck.JPG";
+			images[9] = new Image();
+			images[9].src = "images/stang.JPG";
+			images[10] = new Image();
+			images[10].src = "images/scion.JPG";
+			images[11] = new Image();
+			images[11].src = "images/tacoma.JPG";
+			
+			var descriptions = ["'08 Chevrolet Tahoe LTZ</br>$16,900", "Chevrolet Silverado 4X4</br>$22,900", "'01 Chevrolet 1500 4X4</br>$4,995", 
+			"'02 Chevrolet 2500 HD</br>$3,995", "'95 Ford 15 Passenger Van</br>$3,500", "'02 Mercedes C320</br>$3,495",
+			"'00 Toyota Tundra</br>$3,995", "'04 Chevrolet Venture</br>$2,995", "'13 Ford F250</br>$10,900", "'02 Ford Mustang GT</br>$4,994",
+			"'04 Scion xB</br>$2,995", "'11 Toyota Tacoma</br>$23,900" ]
+			i = i - 1;
+			if(i == 0)
+			document.getElementById('vehicle').src = "images/chevySUV.JPG";
+			document.getElementById('description').innerHTML = "'08 Chevrolet Tahoe LTZ</br>$16,900";
+			if(i < 0){
+			i = 11;
+			document.getElementById('vehicle').src = images[i].src;
+			document.getElementById('description').innerHTML = descriptions[i];
+			}
+			if(i > 0){
+			document.getElementById('vehicle').src = images[i].src;
+			document.getElementById('description').innerHTML = descriptions[i];
+			}
+		}
+		</script>
+	</body>
+</html>
